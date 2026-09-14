@@ -1,0 +1,5 @@
+﻿# .gitignore for the /server directory
+# Keep secrets and generated files out of version control.
+
+node_modules/
+.env

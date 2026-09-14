@@ -1,0 +1,21 @@
+.skills-heading {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-2);
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skills-list li {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background-color: var(--color-accent-soft);
+  color: var(--color-accent-dark);
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+}

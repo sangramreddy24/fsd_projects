@@ -1,0 +1,18 @@
+.contact-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+.contact-intro address {
+  font-style: normal;
+  margin-top: var(--space-2);
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .contact-inner {
+    grid-template-columns: 1fr;
+  }
+}

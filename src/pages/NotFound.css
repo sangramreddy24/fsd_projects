@@ -1,0 +1,14 @@
+.not-found {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.not-found h2 {
+  margin-bottom: var(--space-2);
+}
+
+.not-found p {
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-3);
+}

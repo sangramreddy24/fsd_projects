@@ -1,0 +1,38 @@
+[
+  {
+    "id": "echochamber",
+    "title": "EchoChamber",
+    "tagline": "Personality-aware chat",
+    "description": "A real-time chat application that rewrites messages to match the sender personality type, using an AI model on the backend to adapt tone while keeping the underlying meaning intact.",
+    "details": "Messages are sent through a lightweight backend that calls an LLM to adjust phrasing based on a selected personality profile before broadcasting them to the room, while keeping the original intent unchanged. The focus of this project was handling real-time updates cleanly on the front end while the rewrite happens asynchronously.",
+    "tech": ["Real-time chat", "AI-assisted messaging", "Full stack"],
+    "techStack": ["Real-time chat", "AI-assisted messaging", "Full stack"],
+    "image": "/project-thumb.svg",
+    "link": "https://echochamber-gamma.vercel.app/",
+    "repo": "https://github.com/sangramreddy24"
+  },
+  {
+    "id": "noteflow",
+    "title": "NoteFlow",
+    "tagline": "Educational resource sharing",
+    "description": "A platform where professors can upload course material and students can find and access it in one place, built around simple, role-based access for the two kinds of users.",
+    "details": "Professors get an upload flow scoped to their own courses, while students get a read-only browsing and search view. Access control is handled at the route level so each role only ever sees the screens meant for it.",
+    "tech": ["Authentication", "Role-based access", "Full stack"],
+    "techStack": ["Authentication", "Role-based access", "Full stack"],
+    "image": "/project-thumb.svg",
+    "link": "https://note-flow-rust.vercel.app/login",
+    "repo": "https://github.com/sangramreddy24"
+  },
+  {
+    "id": "mini-compiler",
+    "title": "Mini Compiler",
+    "tagline": "Compiler design coursework",
+    "description": "A compiler front-end built for my Compiler Design course, covering lexical analysis, parsing and basic semantic checks on a small custom language.",
+    "details": "The lexer tokenizes source input, a recursive-descent parser builds an AST from the token stream, and a small semantic-checking pass walks that tree to catch type and scope errors before code generation would happen.",
+    "tech": ["Lexer & parser", "C", "Coursework"],
+    "techStack": ["Lexer & parser", "C", "Coursework"],
+    "image": "/project-thumb.svg",
+    "link": null,
+    "repo": "https://github.com/sangramreddy24"
+  }
+]

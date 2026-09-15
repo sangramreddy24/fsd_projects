@@ -3,6 +3,9 @@
 CS1303 Full Stack Development — converting the static HTML/CSS portfolio
 from Assignment 1 into a component-based React app with routing, state,
 and side effects.
+## 📽️ Video Demo
+
+[Watch the demo on Google Drive](https://drive.google.com/drive/folders/1jEQu8INFWWU_prbf6m4gkpnkUXmptSR0?usp=drive_link)
 
 ## Setup & run
 
